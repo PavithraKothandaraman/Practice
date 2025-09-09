@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+  <test name="AnimalAndDogTests" thread-count="5">
+    <classes>
+      <class name="TestNg_practice.Animal"/>  
+    </classes>
+  </test>
+  <test name="mytest2" thread-count="5">
+  <classes>
+  <class name="TestNg_practice.Dog"/>
+  </classes>
+  </test>
+</suite>
