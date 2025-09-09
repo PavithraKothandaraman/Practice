@@ -17,6 +17,7 @@ public class Automation {
 
     @BeforeClass
     public void setup() throws Exception {
+    	System.out.println("jayashree 2");
         new DriverSetup(); // Load config
         driver = DriverSetup.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));// explicit wait
